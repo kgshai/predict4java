@@ -47,7 +47,7 @@ public class GroundStationPosition {
     private double longitude;
     private double heightAMSL;
     private double theta;
-    private final int[] horizonElevations = new int[36];
+    private final int[] horizonElevations = new int[360];
     private String name;
 
     /**
@@ -136,7 +136,7 @@ public class GroundStationPosition {
     public final void setHorizonElevations(final int[] theHorizonElevations)
             throws IllegalArgumentException {
 
-        if (36 != theHorizonElevations.length) {
+        if (360 != theHorizonElevations.length) {
             throw new IllegalArgumentException(
                     "Expected 36 Horizon Elevations, got: " + theHorizonElevations.length);
         }
