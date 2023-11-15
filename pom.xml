@@ -3,13 +3,13 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.badgersoft</groupId>
+	<groupId>com.github.kgshai</groupId>
 	<artifactId>predict4java</artifactId>
 	<version>1.1.4-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>${project.artifactId}</name>
-	<url>https://github.com/badgersoftdotcom/predict4java</url>
+	<url>https://github.com/kgshai/predict4java</url>
 	<description>predict4java provides real-time satellite tracking and orbital prediction information</description>
 
 	<properties>
